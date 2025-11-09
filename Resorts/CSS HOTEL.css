@@ -1,0 +1,119 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1501117716987-c8e1ecb210dd?auto=format&fit=crop&w=1350&q=80') 
+              no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+}
+ 
+/* Navigation Menu */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+
+  /* NEW: make it stay at the top */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* makes sure it stays above everything else */
+}
+
+/* Logo styling */
+.menu .logo {
+  margin-right: auto; /* pushes the rest of the menu to the right */
+  margin-left: 20px;
+}
+
+.menu .logo img {
+  height: 60px;
+  width: auto;
+  border-radius: 10px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.logo img {
+  height: 100px; /* adjust to your liking */
+  width: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.menu .logo img:hover {
+  transform: scale(1.05);
+}
+
+/* Menu Items */
+.menu > li {
+  position: relative;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu > li > a:hover {
+  background-color: #f0c14b;
+  color: black;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Dropdown Menus */
+.dropdown {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.85);
+  list-style: none;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 180px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.dropdown li a {
+  display: block;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.dropdown li a:hover {
+  background-color: #f0c14b;
+  color: black;
+}
+
+/* Show dropdown on hover */
+.menu li:hover .dropdown {
+  display: block;
+}
+
+.meow {
+    position: absolute;   /* allows pinning */
+    top: 20px;            /* distance from top */
+    left: 20px;           /* distance from left */
+    width: 150px;         /* size of logo */
+    height: auto;         
+}
+
+

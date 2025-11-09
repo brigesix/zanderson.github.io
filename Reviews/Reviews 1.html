@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Zanderson | Reviews</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f4f1;
+      color: #4d4c4b;
+    }
+
+    header {
+      background-color: #4d4c4b;
+      color: #f7f4f1;
+      text-align: center;
+      padding: 25px 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      padding: 0 40px;
+    }
+
+    .review-card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .review-card:hover {
+      transform: scale(1.03);
+    }
+
+    .review-card h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #4d4c4b;
+    }
+
+    .review-card p {
+      font-style: italic;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .stars {
+      color: #d4a017;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #4d4c4b;
+      color: #f7f4f1;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+    .back-home {
+      display: inline-block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: #4d4c4b;
+      border: 2px solid #4d4c4b;
+      padding: 8px 18px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .back-home:hover {
+      background-color: #4d4c4b;
+      color: #f7f4f1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="z.png" alt="Hotel Zanderson logo" style="width: 50px; height: auto; vertical-align: middle; border-radius: 50%; border-color: black; border-style: initial;">
+    <h1>Hotel Zanderson & Resorts Reviews</h1>
+  </header>
+
+  <section>
+    <h2>Guest Reviews</h2>
+    <p>See what our valued guests have to say about their stay at Hotel Zanderson.</p>
+
+    <div class="reviews">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <h3>Jan Cagape</h3>
+        <p>"The staff were so friendly and helpful! The rooms were spotless and the food was exceptional. Definitely coming back."</p>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">★★★★☆</div>
+        <h3> Cenlee Comia </h3>
+        <p>"Loved the infinity pool and the spa! The view from my suite was breathtaking. Highly recommended."</p>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <h3>Kris Alec Madrigal Mananasal</h3>
+        <p>"An unforgettable experience! Everything from the service to the ambiance was top-notch."</p>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">★★★★☆</div>
+        <h3>Richmond Gabad</h3>
+        <p>"Beautiful hotel with amazing facilities. The restaurant food was delicious, and I enjoyed the calm atmosphere."</p>
+      </div>
+ 
+
+  </section>
+
+  <footer>
+    <p>© 2025 Hotel Zanderson. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

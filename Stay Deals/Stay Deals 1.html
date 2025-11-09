@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Zanderson | Stay Deals</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f4f1;
+      color: #4d4c4b;
+    }
+
+    header {
+      background-color: #4d4c4b;
+      color: #f7f4f1;
+      text-align: center;
+      padding: 25px 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: #4d4c4b;
+    }
+
+    .deals-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      padding: 0 40px;
+    }
+
+    .deal-card {
+      background-color: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .deal-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .deal-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .deal-info {
+      padding: 20px;
+    }
+
+    .deal-info h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #4d4c4b;
+    }
+
+    .deal-info p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .deal-info a {
+      background-color: #4d4c4b;
+      color: #f7f4f1;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .deal-info a:hover {
+      background-color: #333;
+    }
+
+    footer {
+      background-color: #4d4c4b;
+      color: #f7f4f1;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+ <img src="z.png" alt="Hotel Zanderson logo" style="width: 50px; height: auto; vertical-align: middle; border-radius: 50%; border-color: black; border-style: initial;">
+    <h1>Hotel Zanderson & Resorts Stay Deals </h1>
+  </header>
+
+  <section>
+    <h2>Exclusive Stay Deals</h2>
+    <p>Indulge in comfort and elegance with our limited-time offers designed to make your stay unforgettable.</p>
+
+    <div class="deals-container">
+      <div class="deal-card">
+        <img src="GET.jpg" alt="Weekend Escape Deal">
+        <div class="deal-info">
+          <h3>Weekend Escape</h3>
+          <p>Stay for 2 nights, pay for 1. Enjoy complimentary breakfast and pool access.</p>
+          <a href="Breh.html">Book Now</a>
+        </div>
+      </div>
+
+      <div class="deal-card">
+        <img src="AWAYS.webp" alt="Romantic Getaway Deal">
+        <div class="deal-info">
+          <h3>Romantic Getaway</h3>
+          <p>Perfect for couples — includes a candlelit dinner, rose petals, and late checkout.</p>
+          <a href="Breh.html">Book Now</a>
+        </div>
+      </div>
+
+      <div class="deal-card">
+        <img src="KIDS.avif" alt="Family Vacation Deal">
+        <div class="deal-info">
+          <h3>Family Vacation</h3>
+          <p>Book a family suite and get free meals for kids plus resort activity passes.</p>
+          <a href="Breh.html">Book Now</a>
+        </div>
+      </div>
+
+      <div class="deal-card">
+        <img src="SOLO.jpg" alt="Business Traveler Deal">
+        <div class="deal-info">
+          <h3>Business Traveler Package</h3>
+          <p>Includes free Wi-Fi, meeting room use, and airport pickup service for your convenience.</p>
+          <a href="Breh.html">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Hotel Zanderson. All rights reserved.</p>
+  </footer>
+</body>
+</html>
